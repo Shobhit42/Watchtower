@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Watchtower.Api/Watchtower.Api.csproj" />
+    <Project Path="src/Watchtower.Application/Watchtower.Application.csproj" />
+    <Project Path="src/Watchtower.Domain/Watchtower.Domain.csproj" />
+    <Project Path="src/Watchtower.Infrastructure/Watchtower.Infrastructure.csproj" />
+    <Project Path="src/Watchtower.Worker.Alerts/Watchtower.Worker.Alerts.csproj" />
+    <Project Path="src/Watchtower.Worker.Analytics/Watchtower.Worker.Analytics.csproj" />
+    <Project Path="src/Watchtower.Worker.HttpChecker/Watchtower.Worker.HttpChecker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Watchtower.Application.Tests/Watchtower.Application.Tests.csproj" />
+    <Project Path="tests/Watchtower.Domain.Tests/Watchtower.Domain.Tests.csproj" />
+    <Project Path="tests/Watchtower.Infrastructure.Tests/Watchtower.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>
