@@ -1,0 +1,9 @@
+services:
+  localstack:
+    image: localstack/localstack:4.12
+    ports:
+      - "127.0.0.1:4566:4566"
+    environment:
+      SERVICES: sqs,s3
+    volumes:
+      - "./localstack/init-aws.sh:/etc/localstack/init/ready.d/init-aws.sh:ro"
